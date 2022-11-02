@@ -1,13 +1,14 @@
 {
   "expo": {
     "name": "Pokedex-Expo",
-    "slug": "Pokedex-Expo",
+    "slug": "pokedex-expo",
+    "owner": "mannysauce",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pokemon-appIcon1024.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Pokemon_splashScreen_resized.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +23,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/pokemon-adaptive.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9310ee08-9f85-412b-93ca-459bb3efb7f7"
+      }
     }
   }
 }
