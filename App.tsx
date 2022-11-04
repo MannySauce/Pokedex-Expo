@@ -1,13 +1,16 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-//import axios from "axios";
-
+import { NavigationContainer } from '@react-navigation/native';
+import Routes from './src/navigation/Routes';
 export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>¡Bienvenido!</Text>
+      <StatusBar style="auto" />
+      <NavigationContainer>
+        <Routes/>
+      </NavigationContainer>
     </View>
   );
 }
